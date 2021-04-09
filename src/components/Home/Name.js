@@ -1,4 +1,5 @@
-import { Avatar, Button, makeStyles, Typography, Link } from '@material-ui/core';
+import { Avatar, Button, makeStyles, Typography } from '@material-ui/core';
+import {Link} from 'react-router-dom';
 import React from 'react';
 import avatar from './avatar.jpg';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
@@ -36,7 +37,7 @@ export const Name = () => {
                 <Avatar className={classes.avatar}alt="" src={avatar} />
 
                 <Typography className={classes.typography}>
-                    <Link style={{color: 'black'}}>
+                    <Link to="/profileFriend" style={{color: 'black'}}>
                         nt.xuandang
                     </Link>
                     

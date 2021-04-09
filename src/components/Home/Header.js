@@ -73,7 +73,9 @@ export const Header = () => {
             <CssBaseline />
             <AppBar className={classes.appbar} position="relative" color="default">
                 <Typography className={classes.typo} variant="h5" color="black" noWrap>
-                    Instagram
+                    <Link to="/" style={{ textDecoration: 'none' }}>
+                      Instagram
+                    </Link>      
                     <SearchIcon className={classes.searchIcon} />
                     <InputBase className={classes.input} placeholder="Tìm kiếm">
                     </InputBase>
